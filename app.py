@@ -271,7 +271,44 @@ def process_postback_event(event):
             event.reply_token,
             result_message_array
         )
+    
+    
+    
+'''
 
+若收到圖片消息時，
+
+先回覆用戶文字消息，並從Line上將照片拿回。
+
+'''
+from linebot.models import (
+    MessageEvent, TextMessage, TextSendMessage,ImageMessage
+)
+
+
+# import tmark_input_word as tiw
+
+# saveAns = ''
+
+@handler.add(MessageEvent, message=ImageMessage)
+def handle_message(event):
+#     global saveAns
+    
+    line_bot_api.reply_message(
+        event.reply_token, 
+        TextSendMessage(text='照片已上傳成功~' + '\n 等待模型回傳結果~\n並輸入(看結果)'))
+#     line_bot_api.reply_message(
+#         event.reply_token,
+#         TextSendMessage(text='看結果'))   
+    message_content = line_bot_api.get_message_content(event.message.id)
+
+    
+    with open('../images/'+event.message.id+'.jpg', 'wb') as fd:
+        for chunk in message_content.iter_content():
+            fd.write(chunk)
+
+    
+    
 
 # In[ ]:
 

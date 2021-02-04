@@ -1,0 +1,22 @@
+[
+{
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "message",
+        "label": "確定",
+        "text": "預約成功"
+      },
+      {
+        "type": "message",
+        "label": "更換",
+        "text": "取消成功"
+      }
+    ],
+    "text": "確定與該律師預約諮詢???"
+  }
+}
+]

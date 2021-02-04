@@ -1,0 +1,27 @@
+[
+{
+  "type": "text",
+  "text": "               相似字\n0     巴司克BSKGAS  66%\n40   派克TwoPeck  46%\n27         科其克  37%\n29         派脆克  26%\n31    魯哇克LUWAK  14 %\n\n  侵權風險: 高\n"
+},
+    {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "message",
+        "label": "繼續",
+        "text": "文字商標相似"
+      },
+      {
+        "type": "postback",
+        "label": "取消",
+        "text": "圖文",
+        "data": "menu=rich_menu_fn"
+      }
+    ],
+    "text": "    ~~~繼續相似文字機率~~~"
+  }
+}
+]

@@ -1,0 +1,77 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0m0e335ba17251511bc95459fe4b0337f66656211daca7/preview",
+        "text": "             全端資料分析工程師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "商標諮詢",
+            "text": "確認"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0hAW1BT8FsHngMOzZlS9NhLzB-EBV7FRgwdFlTHSA_Fx0hDF8qMQ0DSik6REkpWQl9NlRVGCEzRBoj/preview",
+        "text": "             爬蟲資料後端工程師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "預約諮詢",
+            "text": "確認"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0h_BuVAMBuAG1ILyhwk8l_OnRqDgA_AQYlME9KDWh_VglsHRBrfU8bCG8pDQ01SEZsck9HDmUtCVti/preview",
+        "text": "                  AI演算法工程師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "預約諮詢",
+            "text": "確認"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0hRjWDHA-qDUVqPSKeiLlyElZ4AygdEwsNEl1CK0k8UCIVWkJHVgsXI0xuAXMUWEoaAl5Hd0dpAHcX/preview",
+        "text": "                 自然語言分析工程師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "預約諮詢",
+            "text": "確認"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0m0e5b6deb7251cc37300b03a739bb322712f3271c8831/preview",
+        "text": "            Data mining 工程分析師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "預約諮詢",
+            "text": "確認"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://profile.line-scdn.net/0hHo6pBCu-F0ALCTzxXHxoFzdMGS18JxEIc2ddL3xcS3BxO1BFMD1aIywNQXN2PVgRPmsPJioMHSck/preview",
+        "text": "                前端版本管控工程師",
+        "actions": [
+          {
+            "type": "message",
+            "label": "預約諮詢",
+            "text": "確認"
+          }
+        ]
+      }
+    ]
+  }
+}
+]
